@@ -1,0 +1,61 @@
+<title>50 proxectos creativos · 02 - Logo de Google</title>
+<main>
+  <div class="wrap">
+    <div class="top"></div>
+    <div class="half"></div>
+    <div class="line"></div>
+  </div>
+</main>
+<style>
+  * {
+    /* Indicar ao navegador que debe ter en conta tanto o borde como o recheo nos valores que especificamos para o ancho e a altura */
+    box-sizing: border-box;
+  }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fffdd5;
+  }
+
+  .wrap {
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+
+  .top {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-bottom: 30px solid #2BA14B;
+    border-left: 30px solid #F1B500;
+    border-radius: 50%;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #E33E2B;  
+  }
+
+  .half {
+    position: absolute;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    border: 30px solid transparent;
+    border-radius: 50%;
+    border-right: 30px solid #3A7CEC;
+    transform: rotate(45deg);  
+  }
+
+  .line {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80px;
+    height: 30px;
+    background-color:#3A7CEC;
+    border-bottom-right-radius: 15px;
+    transform: translateY(-50%); 
+  }
+</style>
