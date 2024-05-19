@@ -56,5 +56,14 @@ export const PROJECTS = [
       "Logo",
       "CSS",
     ],
+  },
+  {
+    slug: "07-capitan-america",
+    title: "Capitán América",
+    description: "Escudo do Capitán América realizado con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS",
+    ],
   }
 ]

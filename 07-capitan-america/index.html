@@ -1,0 +1,94 @@
+<title>50 proxectos creativos · 04 - Sobre de corazón</title>
+<main>
+    <div class="c3">
+        <div class="c2">
+            <div class="c1">
+                <div class="center">
+                    <div class="arrow top"></div>
+                    <div class="arrow left"></div>
+                    <div class="arrow right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<style>
+  :root {
+    --white: #FFFFFF;
+    --red: #E53E5C;
+    --dark-red: #B20233;
+    --blue: #3A71C0;
+    --dark-blue: #43549B;
+    --background: #fffdd5;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: var(--background);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .c3 {
+        width: 260px;
+        height: 260px;
+        background: var(--red);
+        background: linear-gradient(135deg, var(--red), var(--dark-red));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .c2 {
+        width: 210px;
+        height: 210px;
+        background-color: var(--white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .c1 {
+        width: 150px;
+        height: 150px;
+        background: var(--red);
+        background: linear-gradient(135deg, var(--red), var(--dark-red));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center {
+        width: 100px;
+        height: 100px;
+        background: var(--blue);
+        background: linear-gradient(135deg, var(--blue), var(--dark-blue));
+        border-radius: 50%;
+        position: relative;
+    }
+    .arrow {
+        width: 0;
+        height: 0;
+        border-top: 35px solid var(--white);
+        border-left: 48px solid transparent;
+        border-right: 48px solid transparent;
+        border-bottom: 48px solid transparent;
+        position: absolute;
+    }
+    .top {
+        top: 35px;
+        left: 2px;
+    }
+    .left {
+        top: 16px;
+        left: -24px;
+        transform: rotate(72deg);
+    }
+    .right {
+        top: 16px;
+        left: 24px;
+        transform: rotate(-72deg);
+    }
+</style>
