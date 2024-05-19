@@ -5,6 +5,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://ines-sanluis.github.io',
-  base: 'proxectos-creativos',
+  site: 'https://proxectos-creativos.vercel.app'
 });
