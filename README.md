@@ -5,28 +5,12 @@
 </div>
 
 <div align="center">
-    <a href="https://www.javascript100.dev">
+    <a href="https://proxectos-creativos.vercel.app">
         Website
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="#-proyectos">
-        Proyectos
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="#-contribuir">
-        Contribuir
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://www.youtube.com/c/midudev">
-        YouTube
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://twitter.com/midudev">
+    <a href="https://x.com/sanluisdev">
         Twitter
-    </a>
-    <span>&nbsp;❖&nbsp;</span>
-    <a href="https://twitch.tv/midudev">
-        Twitch
     </a>
 </div>
 
