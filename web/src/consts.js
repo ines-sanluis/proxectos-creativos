@@ -1,43 +1,60 @@
 export const PROJECTS = [
   {
-    slug: "01-tinder-swipe",
-    title: "Tinder Swipe",
-    description:
-      "Aprende a crear el efecto de swipe de Tinder con HTML, CSS y JavaScript.",
+    slug: "01-boton-hover",
+    title: "Botón amarelo",
+    description: "Efecto de hover para cambiar a cor dun botón.",
     learnings: [
-      "DOM",
-      "Animaciones con gestos",
-      "Eventos de mouse y touch",
-      "Transiciones CSS",
+      "Hover",
+      "Botón",
+      "Transicións CSS",
     ],
-    youtube: 'https://www.youtube.com/watch?v=u01WD_YNENY'
   },
   {
-    slug: "02-arkanoid-game",
-    title: "Arkanoid Game",
-    description:
-      "Juego mítico y clásico de Arkanoid para controlar con teclado",
+    slug: "02-logo-google",
+    title: "Logo de Google",
+    description: "Logo realizado con CSS.",
     learnings: [
-      "Dibujar en Canvas",
-      "Eventos de teclado",
-      "RequestAnimationFrame",
-      "Sprites"
+      "Logo",
+      "CSS",
     ],
-    youtube: 'https://www.youtube.com/watch?v=b6du6MvQmuQ'
   },
   {
-    slug: "03-midu-typing-game",
-    title: "Reto de Mecanografía",
-    description: "Pon a prueba tus habilidades de mecanografía con este reto",
+    slug: "03-lua-azul",
+    title: "Lúa azul",
+    description: "Animación dunha lúa cun cohete.",
     learnings: [
-      "DOM",
-      "Eventos de teclado",
-      "Manejo de clases",
-      "Optimización selectores"
+      "Animación",
+      "CSS",
+      "Ilustración"
+    ]
+  },
+  {
+    slug: "04-corazon-sobre",
+    title: "Carta de amor",
+    description: "Animación dun corazón que latexa nun sobre.",
+    learnings: [
+      "Animación",
+      "CSS",
+      "Ilustración"
+    ]
+  },
+  {
+    slug: "05-arcodavella",
+    title: "Arco da vella",
+    description: "Animación dun arco da vella.",
+    learnings: [
+      "Animación",
+      "CSS",
+      "Ilustración"
+    ]
+  },
+  {
+    slug: "06-logo-lg",
+    title: "Logo de LG",
+    description: "Logo de LG realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
     ],
-    theme: {
-      isDark: true
-    },
-    youtube: 'https://www.youtube.com/watch?v=157qVlTelOg&t=135s'
   }
 ]
