@@ -1,0 +1,133 @@
+<title>50 proxectos creativos · 08 - Pikachu</title>
+<body>
+    <div class="container">
+        <div class="eyes"></div>
+        <div class="eye r">
+            <div class="eyeball"></div>
+        </div>
+        <div class="eye l">
+            <div class="eyeball"></div>
+        </div>
+        <div class="nose"></div>
+        <div class="cheek r"></div>
+        <div class="cheek l"></div>
+        <div class="mouth">
+            <div class="tongue"></div>
+        </div>
+    </div>
+</body>
+<style>
+  :root {
+    --white: #FFFFFF;
+    --red: #E53E5C;
+    --dark-red: #B20233;
+    --blue: #3A71C0;
+    --dark-blue: #43549B;
+    --background: #fcd458;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--background);
+    }
+    .container {
+        position: relative;
+        width: 350px;
+        height: 600px;
+    }
+    .eye {
+        width: 64px;
+        height: 64px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        left: 13%;
+    }
+    .eye.r {
+        left: 65%;
+    }
+    .eyeball {
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        position: absolute;
+        border-radius: 50%;
+        left: 44%;
+        top: 13%;
+        animation: eyes 2s infinite;
+    }
+    .nose {
+        width: 16px;
+        height: 16px;
+        background-color: black;
+        position: absolute;
+        left: 47%;
+        top: 44%;
+        border-radius: 8px 8px 16px 16px;
+    }
+    .cheek {
+        width: 48px;
+        height: 48px;
+        background-color: #e15b42;
+        border-radius: 50%;
+        position: absolute;
+        top: 48%;
+        left: 4%;
+    }
+    .cheek.r {
+        left: 80%;
+    }
+    .mouth {
+        width: 96px;
+        height: 96px;
+        background-color: #83342f;
+        border-radius: 16px 16px 50% 50%;
+        position: absolute;
+        left: 36%;
+        top: 50%;
+        overflow: hidden;
+    }
+    .mouth::after,
+    .mouth::before {
+        content: "";
+        width: 64px;
+        height: 64px;
+        background-color: var(--background);
+        position: absolute;
+        top: -39%;
+        left: -19%;
+        border-radius: 50%;
+    }
+    .mouth::before {
+        left: 46%;
+    }
+    .tongue {
+        width: 64px;
+        height: 64px;
+        background-color: #e97b7c;
+        border-radius: 50%;
+        position: absolute;
+        left: 16%;
+        top: 61%;
+    }
+
+    @keyframes eyes {
+        0% {
+            left: 44%;
+        }
+        50% {
+            left: 15%;
+        }
+        100% {
+            left: 44%;
+        }
+        
+    }
+</style>

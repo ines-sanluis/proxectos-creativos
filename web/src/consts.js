@@ -65,5 +65,15 @@ export const PROJECTS = [
       "Ilustración",
       "CSS",
     ],
+  },
+  {
+    slug: "08-pikachu",
+    title: "Pikachu",
+    description: "Animación na que Pikachu move os ollos.",
+    learnings: [
+      "Animación",
+      "CSS",
+      "Ilustración"
+    ]
   }
 ]
