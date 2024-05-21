@@ -75,5 +75,14 @@ export const PROJECTS = [
       "CSS",
       "Ilustración"
     ]
+  },
+  {
+    slug: "09-logo-instagram",
+    title: "Logo de Instagram",
+    description: "Logo realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
+    ],
   }
 ]
