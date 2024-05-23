@@ -84,5 +84,15 @@ export const PROJECTS = [
       "Logo",
       "CSS",
     ],
+  },
+  {
+    slug: "10-sandia",
+    title: "Sandía",
+    description: "Deseño plano dunha sandía.",
+    learnings: [
+      "Ilustración",
+      "CSS",
+      "Deseño plano"
+    ],
   }
 ]
