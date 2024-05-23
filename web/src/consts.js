@@ -94,5 +94,15 @@ export const PROJECTS = [
       "CSS",
       "Deseño plano"
     ],
+  },
+  {
+    slug: "11-mar",
+    title: "Onda do mar",
+    description: "Animación dunha onda en texto.",
+    learnings: [
+      "Animación",
+      "CSS",
+      "Clip-path"
+    ]
   }
 ]
