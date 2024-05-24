@@ -104,5 +104,14 @@ export const PROJECTS = [
       "CSS",
       "Clip-path"
     ]
+  },
+  {
+    slug: "12-moto",
+    title: "Motorista",
+    description: "Animación dun motorista.",
+    learnings: [
+      "Animación",
+      "CSS"
+    ]
   }
 ]

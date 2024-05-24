@@ -1,0 +1,41 @@
+<title>50 proxectos creativos · 12 - Moto </title>
+<body>
+    <div class="road"></div>
+    <img src="moto.png" class="motorbike">
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    body {
+        display:  flex;
+        height:  100vh;
+        margin:  0;
+        background:  #fffdd5;
+        align-items:  center;
+        justify-content:  center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .road {
+        background-color: rgb(99, 92, 79);
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width: 100%;
+    }
+    .motorbike {
+        position: absolute;
+        left: -200px;
+        bottom: 45px;
+        width: 150px;
+        animation: driving 4s ease-in-out infinite;
+    }
+    @keyframes driving {
+        0% {
+            left: -200px;
+        }
+        100% {
+            left: calc(100% + 200px)
+        }
+    }
+</style>
