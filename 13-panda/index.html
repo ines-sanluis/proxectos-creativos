@@ -1,0 +1,105 @@
+<title>50 proxectos creativos · 13 - Panda </title>
+<body>
+    <div class="panda">
+        <span class="ear left"></span>
+        <span class="ear right"></span>
+        <span class="face"></span>
+        <span class="eye left"></span>
+        <span class="eye right"></span>
+        <span class="nose"></span>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    body {
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+    }
+    .panda{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 270px;
+        height: 225px;
+        transform: translate(-50%, -50%);
+    }
+    .face{
+        position: relative;
+        display: block;
+        width: 270px;
+        height: 225px;
+        background-color: #ffffff;
+        border-radius: 60% 60% 42% 42%/ 66% 65% 50% 50%;
+    }
+    .ear{
+        position: absolute;
+        top: -26px;
+        display: block;
+        width: 134px;
+        height: 134px;
+        background-color: #212121;
+        border-radius: 50%;
+    }
+    .ear.left{
+        left: -33px;
+    }
+    .ear.right{
+        left: 167px;
+    }
+    .eye{
+        position: absolute;
+        top: 67px;
+        display: block;
+        width: 96px;
+        height: 102px;
+        background-color: #212121;
+        border-radius: 65% 35% 64% 35% / 53% 48% 55% 40%;   
+    }
+    .eye.left{
+        left: 23px;
+
+    }
+    .eye.right{
+        left: 155px;
+        transform: rotateY(180deg);
+    }
+    .eye.left:before,
+    .eye.right:before{
+        position: absolute;
+        top: 23px;
+        left: 56px;
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        animation: blink 3s ease-in-out infinite;
+        content: "";   
+    }
+    .nose{  
+        position: absolute;
+        top: 160px;
+        left: 117px;
+        display: block;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #212121;   
+    }
+    @keyframes blink {
+        0% {
+            height: 24px;
+        }
+        10% {
+            height: 4px;
+        }
+        20% {
+            height: 24px;
+        }
+    }
+</style>

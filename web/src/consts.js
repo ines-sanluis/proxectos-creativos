@@ -113,5 +113,15 @@ export const PROJECTS = [
       "Animación",
       "CSS"
     ]
+  },
+  {
+    slug: "13-panda",
+    title: "Panda",
+    description: "Animación dun panda.",
+    learnings: [
+      "Animación",
+      "CSS",
+      "Ilustración"
+    ]
   }
 ]
