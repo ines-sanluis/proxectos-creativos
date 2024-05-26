@@ -123,5 +123,14 @@ export const PROJECTS = [
       "CSS",
       "Ilustración"
     ]
+  },
+  {
+    slug: "14-reloxo",
+    title: "Reloxo",
+    description: "Animación dun reloxo.",
+    learnings: [
+      "Animación",
+      "CSS"
+    ]
   }
 ]
