@@ -132,5 +132,32 @@ export const PROJECTS = [
       "Animación",
       "CSS"
     ]
+  },
+  {
+    slug: "15-logo-adidas",
+    title: "Logo de Adidas",
+    description: "Logo de Adidas realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
+    ],
+  },
+  {
+    slug: "16-logo-figma",
+    title: "Logo de Figma",
+    description: "Logo de Figma realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
+    ],
+  },
+  {
+    slug: "17-logo-react",
+    title: "Logo de React",
+    description: "Logo de React realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS"
+    ]
   }
 ]
