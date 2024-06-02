@@ -159,5 +159,14 @@ export const PROJECTS = [
       "Logo",
       "CSS"
     ]
+  },
+  {
+    slug: "18-logo-batman",
+    title: "Logo de Batman",
+    description: "Logo de Batman realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS"
+    ]
   }
 ]

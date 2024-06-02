@@ -1,0 +1,116 @@
+<title>50 proxectos creativos · 18 - Logo de Batman </title>
+<body>
+    <div class="oval">
+    	<div class="logo">
+            <div class="smallOval o1"></div>
+            <div class="smallOval o2"></div>
+            <div class="smallOval o3"></div>
+            <div class="smallOval o4"></div>
+            <div class="smallOval o5"></div>
+            <div class="smallOval o6"></div>
+            <div class="sq1"></div>
+            <div class="sq2"></div>
+            <div class="ears"></div>
+        </div>
+    </div>
+</body>
+<style>
+    :root {
+        --yellow: #FDFF00;
+    }
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .oval {
+        position: relative;
+        width: 230px;
+        height: 130px;
+        background-color: var(--yellow);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .logo {
+        position: absolute;
+        background-color: black;
+        width: 212px;
+        height: 112px;
+        border-radius: 50%;
+    }
+    .smallOval {
+        position: absolute;
+        border-radius: 50%;
+        background-color: var(--yellow);
+    }
+    .o1, .o2 {
+        top: 67px;
+        width: 33px;
+    }
+    .o1, .o2, .o3, .o4 {
+        height: 70px;
+    }
+    .o1 {
+        left: 44px;
+        transform: rotate(-41deg);
+    }
+    .o2 {
+        right: 44px;
+        transform: rotate(41deg);
+    }
+    .o3 {
+        width: 38px;
+        top: 73px;
+        left: 68px;
+        transform: rotate(-15deg);
+    }
+    .o4 {
+        width: 38px;
+        top: 73px;
+        right: 68px;
+        transform: rotate(15deg);
+    }
+    .o6, .o5 {
+        width: 37px;
+        height: 40px;
+        top: 0;
+    }
+    .o5 {
+        left: 57px;
+    }
+    .o6 {
+        right: 57px;
+    }
+    .sq1, .sq2 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: var(--yellow);
+        top: 0;
+    }
+    .sq1 {
+        left: 74px;
+    }
+    .sq2 {
+        right: 74px;
+    }
+    .ears {
+        position: absolute;
+        top: 0;
+        left: 95px;
+        border-bottom: 12px solid var(--yellow);
+        border-left: 6px solid black;
+        border-right: 6px solid black;
+        width: 11px;
+        transform: rotate(180deg);
+    }
+</style>
