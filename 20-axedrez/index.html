@@ -1,0 +1,131 @@
+<title>50 proxectos creativos · 19 - Logo de Git </title>
+<body>
+    <div class="piece">
+        <div class="cross"> </div>
+        <div class="line1"></div>
+        <div class="upper"></div>
+        <div class="line2"></div>
+        <div class="body"></div>
+        <div class="line3"></div>
+        <div class="base"></div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .piece {
+        width: 200px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .cross {
+        width: 5px;
+        height: 25px;
+        background-color: #dfdfdf;
+        position: absolute;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        top: 20px;
+        &&::before {
+            content: '';
+            width: 5px;
+            height: 25px;
+            background-color: #dfdfdf;
+            border-radius: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotate(90deg);
+        }
+        &&:after {
+            content: '';
+            padding: 5px;
+            border-top: 10px solid #dfdfdf;
+            border-bottom: 10px solid transparent;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            position: absolute;
+            top: 35px;
+            left: -7px;
+        }
+   }
+   .line1, .line2, .line3 {
+        border-radius: 20px;
+   }
+   .line3 {
+        width: 100px;
+        height: 5px;
+        background-color: #dfdfdf;
+        position: absolute;
+        top: 285px;
+   }
+   .line2 {
+        width: 50px;
+        height: 5px;
+        background-color: #dfdfdf;
+        position: absolute;
+        top: 100px;
+   }
+   .line1 {
+        width: 30px;
+        height: 5px;
+        background-color: #dfdfdf;
+        position: absolute;
+        top: 45px;
+   }
+   .upper {
+        padding: 15px;
+        border-top: 50px solid #f1f1f1;
+        border-bottom: 50px solid transparent;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        border-radius: 20px;
+    }
+    .body {
+        padding: 15px;
+        border-top: 180px solid #f1f1f1;
+        border-bottom: 50px solid transparent;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        transform: rotate(180deg);
+        position: absolute;
+        top: 25px;
+        left: 60px;
+    }
+    .base {
+        padding: 10px;
+        width: 100px;
+        height: 10px;
+        border-radius: 20px;
+        background-color: #f1f1f1;
+        top: 290px;
+        position: absolute;
+        left: 40px;
+        &::after {
+            content: '';
+            width: 120px;
+            height: 10px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            background-color: #dfdfdf;
+            position: absolute;
+            top: 30px;
+            left: 0;
+        }
+    }
+</style>

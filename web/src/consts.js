@@ -177,5 +177,15 @@ export const PROJECTS = [
       "Logo",
       "CSS"
     ]
+  },
+  {
+    slug: "20-axedrez",
+    title: "Peza de xadrez",
+    description: "Rei de xadrez realizado con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+
   }
 ]
