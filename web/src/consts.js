@@ -11,7 +11,7 @@ export const PROJECTS = [
   },
   {
     slug: "02-logo-google",
-    title: "Logo de Google",
+    title: "Google",
     description: "Logo realizado con CSS.",
     learnings: [
       "Logo",
@@ -50,8 +50,8 @@ export const PROJECTS = [
   },
   {
     slug: "06-logo-lg",
-    title: "Logo de LG",
-    description: "Logo de LG realizado con CSS.",
+    title: "LG",
+    description: "LG realizado con CSS.",
     learnings: [
       "Logo",
       "CSS",
@@ -78,7 +78,7 @@ export const PROJECTS = [
   },
   {
     slug: "09-logo-instagram",
-    title: "Logo de Instagram",
+    title: "Instagram",
     description: "Logo realizado con CSS.",
     learnings: [
       "Logo",
@@ -135,8 +135,8 @@ export const PROJECTS = [
   },
   {
     slug: "15-logo-adidas",
-    title: "Logo de Adidas",
-    description: "Logo de Adidas realizado con CSS.",
+    title: "Adidas",
+    description: "Adidas realizado con CSS.",
     learnings: [
       "Logo",
       "CSS",
@@ -144,8 +144,8 @@ export const PROJECTS = [
   },
   {
     slug: "16-logo-figma",
-    title: "Logo de Figma",
-    description: "Logo de Figma realizado con CSS.",
+    title: "Figma",
+    description: "Figma realizado con CSS.",
     learnings: [
       "Logo",
       "CSS",
@@ -153,8 +153,8 @@ export const PROJECTS = [
   },
   {
     slug: "17-logo-react",
-    title: "Logo de React",
-    description: "Logo de React realizado con CSS.",
+    title: "React",
+    description: "React realizado con CSS.",
     learnings: [
       "Logo",
       "CSS"
@@ -162,8 +162,8 @@ export const PROJECTS = [
   },
   {
     slug: "18-logo-batman",
-    title: "Logo de Batman",
-    description: "Logo de Batman realizado con CSS.",
+    title: "Batman",
+    description: "Batman realizado con CSS.",
     learnings: [
       "Logo",
       "CSS"
@@ -171,8 +171,8 @@ export const PROJECTS = [
   },
   {
     slug: "19-logo-git",
-    title: "Logo de Git",
-    description: "Logo de Git realizado con CSS.",
+    title: "Git",
+    description: "Git realizado con CSS.",
     learnings: [
       "Logo",
       "CSS"
