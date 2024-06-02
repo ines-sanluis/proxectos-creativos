@@ -168,5 +168,14 @@ export const PROJECTS = [
       "Logo",
       "CSS"
     ]
+  },
+  {
+    slug: "19-logo-git",
+    title: "Logo de Git",
+    description: "Logo de Git realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS"
+    ]
   }
 ]

@@ -1,0 +1,70 @@
+<title>50 proxectos creativos · 19 - Logo de Git </title>
+<body>
+    <div class="git">
+        <div class="line1"></div>
+        <div class="line2"></div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .git {
+        width: 150px;
+        height: 150px;
+        background-color: #f05033;
+        border-radius: 15px;
+        position: relative;
+        transform: rotate(45deg);
+    }
+    .line1, .line2 {
+        width: 110px;
+        height: 12px;
+        background-color: white;
+        position: absolute;
+    }
+    .line1 {
+        width: 110px;
+        top: 40px;
+        &::after,
+        &::before {
+            content: '';
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -8px;
+        }
+        &::before {
+            left: 30px;
+        }
+        &::after {
+            left: 90px;
+        }
+    }
+    .line2 {
+        width: 90px;
+        top: 70px;
+        left: 30px;
+        transform: rotate(45deg);
+        &::before {
+            content: '';
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: -8px;
+            left: 70px;
+        }
+    }
+</style>
