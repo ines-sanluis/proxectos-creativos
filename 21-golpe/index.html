@@ -1,0 +1,179 @@
+<title>50 proxectos creativos · 21 - Golpe </title>
+<!-- https://codepen.io/avisherwood/pen/XNeQgz -->
+<body>
+    <div class="fox">
+        <div class="head">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+        <div class="ear"></div>
+        <div class="ear"></div>
+        <div class="nose"></div>
+        <div class="body"></div>
+        <div class="tail"></div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    *, *:after, *:before{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        transition: all 100ms ease-in;
+    }
+    .fox {
+        width: 215px;
+        height: 275px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .fox .head {
+        width: 184px;
+        height: 184px;
+        display: block;
+        background: #d17f50;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        right: 0px;
+        overflow: hidden;
+    }
+    .fox .head:before, .fox .head:after {
+        content: '';
+        width: 184px;
+        height: 184px;
+        display: block;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        bottom: -92px;
+    }
+    .fox .head:before {
+        left: -92px;
+    }
+    .fox .head:after {
+        right: -92px;
+    }
+    .fox .head .eye {
+        width: 18px;
+        height: 9px;
+        display: block;
+        background: black;
+        border-radius: 18px 18px 0 0;
+        position: absolute;
+        z-index: 2;
+        bottom: 40px;
+        animation: blink 5s step-start 0s infinite;
+    }
+    .fox .head .eye:nth-child(odd) {
+        left: 37px;
+        transform: rotate(45deg);
+    }
+    .fox .head .eye:nth-child(even) {
+        right: 37px;
+        transform: rotate(-45deg);
+    }
+    .fox .ear {
+        width: 93px;
+        height: 93px;
+        display: block;
+        background: #b76f45;
+        position: absolute;
+        top: 0px;
+    }
+    .fox .ear:nth-child(odd) {
+        border-radius: 0 93px 0 0;
+        left: 31px;
+    }
+    .fox .ear:nth-child(even) {
+        border-radius: 93px 0 0 0;
+        right: 0px;
+    }
+    .fox .nose {
+        width: 27px;
+        height: 27px;
+        display: block;
+        background: black;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 3;
+        top: 169px;
+        right: 78px;
+    }
+    .fox .body {
+        width: 107px;
+        height: 214px;
+        display: block;
+        background: #d17f50;
+        border-radius: 0 214px 214px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 0px;
+        right: 0px;
+    }
+    .fox .tail {
+        width: 215px;
+        height: 107px;
+        display: block;
+        background: #d17f50;
+        border-radius: 0 0 214px 214px;
+        position: absolute;
+        z-index: 1;
+        bottom: 0px;
+        right: 0px;
+        overflow: hidden;
+    }
+    .fox .tail:before {
+        content: '';
+        width: 57px;
+        height: 57px;
+        display: block;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: -30px;
+        left: -30px;
+    }
+    .fox:hover .head, .fox:hover .ear {
+        transform: rotate(15deg);
+    }
+    .fox:hover .ear:nth-child(odd) {
+        left: 48px;
+    }
+    .fox:hover .ear:nth-child(even) {
+        right: -3px;
+        top: 20px;
+    }
+    .fox:hover .nose {
+        width: 24px;
+        height: 24px;
+        top: 165px;
+        right: 103px;
+    }
+    @keyframes blink {
+        15% {
+            height: 1px;
+        }
+        45% {
+            height: 9px;
+        }
+        50% {
+            height: 1px;
+        }
+    }
+</style>
