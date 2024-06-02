@@ -186,6 +186,14 @@ export const PROJECTS = [
       "Ilustración",
       "CSS"
     ]
-
+  },
+  {
+    slug: "21-golpe",
+    title: "Golpe",
+    description: "Animación dun golpe.",
+    learnings: [
+      "Animación",
+      "CSS"
+    ]
   }
 ]
