@@ -1,0 +1,75 @@
+<title>50 proxectos creativos · 29 - Xeado </title>
+<body>
+    <div class="ice-cream">
+        <div class="stick"></div>
+        <div class="side"></div>
+        <div class="side side-2"></div>
+        <div class="melting"></div>
+        <div class="melting melting2"></div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .ice-cream {
+        background-color: #9cd2a2;
+        width: 250px;
+        height: 400px;
+        border-radius: 45% 45% 10% 10%;
+        position: relative;
+        margin-top: -150px;
+    }
+
+    .stick {
+        width: 50px;
+        height: 275px;
+        background-color: #e6ac84;
+        border-radius: 40%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .side {
+        height: 240px;
+        width: 60px;
+        background-color: #a5ddac;
+        border-radius: 40%;
+        position: absolute;
+        left: 40px;
+        top: 100px;
+    }
+  
+    .side-2 {
+        left: 150px;
+    }
+
+    .melting {
+        width: 30px;
+        height: 60px;
+        background: #9cd2a2;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        bottom: -10px;
+        z-index: -10;
+    }
+
+    .melting2 {
+        left: 180px;
+        bottom: -30px;
+    }
+</style>

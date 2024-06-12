@@ -1,0 +1,65 @@
+<title>50 proxectos creativos · 24 - Diamante </title>
+<body>
+    <div class="diamond">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .diamond {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform: rotate(45deg);
+    }
+    span {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+    }
+    span:nth-child(1) {
+        top: 0;
+        left: 0;
+        border-top-color: transparent;
+        border-right-color: #20BC7D;
+        border-bottom-color: #26C893;
+        border-left-color: transparent;
+    }
+    span:nth-child(2) {
+        top: 0;
+        left: 50%;
+        border-top-color: #1FB67C;
+        border-right-color: #20BC7D;
+        border-bottom-color: #26C893;
+        border-left-color: #55DDB9;
+    }
+    span:nth-child(3) {
+        top: 50%;
+        left: 0;
+        border-top-color: #1FB67C;
+        border-right-color: #20BC7D;
+        border-bottom-color: #26C893;
+        border-left-color: #55DDB9;
+    }
+    span:nth-child(4) {
+        top: 50%;
+        left: 50%;
+        border-top-color: #1FB67C;
+        border-right-color: #20BC7D;
+        border-bottom-color: #26C893;
+        border-left-color: #55DDB9;
+    }
+
+</style>

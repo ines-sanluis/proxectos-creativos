@@ -1,0 +1,50 @@
+<title>50 proxectos creativos · 23 - Pepsi </title>
+<body>
+    <div class="pepsi"></div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .pepsi {
+        height: 300px;
+        width: 300px;
+        background-color: #34588e;
+        border-radius: 50%;
+        border: 10px solid white;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .pepsi:before {
+        content: "";
+        position: absolute;
+        height: 400px;
+        width: 500px;
+        border-radius: 25%;
+        background-color: white;
+        top: -160px;
+        left: -240px;
+        transform: rotate(-18deg);
+    }
+
+    .pepsi:after {
+        position: absolute;
+        content: "";
+        height: 500px;
+        width: 550px;
+        border-radius: 50%;
+        background-color: #da473c;
+        top: -275px;
+        left: -300px;
+    }
+</style>

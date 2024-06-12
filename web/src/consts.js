@@ -195,5 +195,95 @@ export const PROJECTS = [
       "Animación",
       "CSS"
     ]
-  }
+  },
+  {
+    slug: "22-oso",
+    title: "Oso",
+    description: "Ilustración dun oso polar con CSS.",
+    learnings: [
+      "CSS",
+      "Ilustración"
+    ]
+  },
+  {
+    slug: "23-logo-pepsi",
+    title: "Pepsi",
+    description: "Pepsi realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
+    ],
+  },
+  {
+    slug: "24-diamante",
+    title: "Diamante",
+    description: "Diamante de esmeralda con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "25-logo-windows",
+    title: "Windows",
+    description: "Windows realizado con CSS.",
+    learnings: [
+      "Logo",
+      "CSS",
+    ],
+  },
+  {
+    slug: "26-donut",
+    title: "Donut",
+    description: "Donut de azucre con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "27-cafe",
+    title: "Café",
+    description: "Café con CSS empregando box shadow.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "28-engrenaxe",
+    title: "Engrenaxe",
+    description: "Engrenaxe realizado con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "29-xeado",
+    title: "Xeado",
+    description: "Xeado de lima con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "30-nube",
+    title: "Nube",
+    description: "Nube con CSS.",
+    learnings: [
+      "Ilustración",
+      "CSS"
+    ]
+  },
+  {
+    slug: "31-logo-brackets",
+    title: "Brackets",
+    description: "Brackets con CSS.",
+    learnings: [
+      "Logo",
+      "CSS"
+    ]
+  }  
 ]

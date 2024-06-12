@@ -1,0 +1,59 @@
+<title>50 proxectos creativos · 28 - Engrenaxe </title>
+<body>
+    <div class="gear">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="gear-inner"></div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        background: #fffdd5;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .gear {
+        width: 110px;
+        height: 110px;
+        background-color: #7f918a;
+        border-radius: 50%;
+    }
+
+    .gear-inner {
+        width: 55px;
+        height: 55px;
+        background-color: #fffdd5;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .bar {
+        width: 170px;
+        height: 40px;
+        background-color: #7f918a;
+        border-radius: 7px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .bar:nth-child(2) {
+        transform: translate(-50%,-50%) rotate(60deg);
+    }
+
+    .bar:nth-child(3) {
+        transform: translate(-50%,-50%) rotate(-60deg);
+    }
+</style>
